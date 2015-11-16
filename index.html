@@ -5,8 +5,14 @@
   <link rel="stylesheet" type="text/css" href="./css/stylesheet.css">
   <!-- css for fullpage.js -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css">
+  <!-- qTip2 css -->
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.css">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
   <!-- normal jquery cdn -->
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <!-- qTip2 js -->
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/jquery.qtip.min.js"></script>
   <!-- fullpage.js -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/vendors/jquery.easings.min.js"></script>
   <!-- fullpage.js -->
@@ -19,34 +25,76 @@
 <body>
 
   <div id="fullpage">
-    <div class="section">Calvin and Hobbes</div>
     <div class="section">
-      <div class="slide">
+      <h2>Calvin and Hobbes</h2>
+<!--       <div class="container">
+        <div class="hobbes-pool"><img src="./images/pool-scene/hobbes.png"></div>
+        <div class="pool"><img src="./images/pool-scene/pool.png"></div>
+        <div class="calvin-pool"><img src="./images/pool-scene/calvin.png"></div>
+        <div class="ball"><img src="./images/pool-scene/ball.png"></div>
+        <div class="back-tree"><img src="./images/pool-scene/back-tree.png"></div>
+      </div> -->
+    </div>
+
+    <div class="section">
       <div class="container0">
         <ul id="scene" class="scene">
-          <li class="layer" data-depth="0.20">
+          <li class="layer scene0" data-depth="0.20">
             <div class="right-rock-2"><img src="./images/rock-scene/right-rock-2.png"></div>
           </li>
-          <li class="layer" data-depth="0.60">
+          <li class="layer scene0" data-depth="0.60">
             <div class="calvin"><img src="./images/rock-scene/calvin.png"></div>
           </li>
-          <li class="layer" data-depth="0.40">
+          <li class="layer scene0" data-depth="0.40">
             <div class="far-right-rock"><img src="./images/rock-scene/far-right-rock.png"></div>
           </li>
-          <li class="layer" data-depth="1.00">
+          <li class="layer scene0" data-depth="1.00">
             <div class="hobbes"><img src="./images/rock-scene/hobbes.png"></div>
           </li>
-          <li class="layer" data-depth="1.30">
+          <li class="layer scene0" data-depth="1.30">
             <div class="left-rock-2"><img src="./images/rock-scene/left-rock-2.png"></div>
           </li>
-          <li class="layer" data-depth="2.20">
+          <li class="layer scene0" data-depth="2.20">
             <div class="left-rock-1"><img src="./images/rock-scene/left-rock-1.png"></div>
           </li>
         </ul>
+<!--         <ul id="scene" class="scene scene1">
+          <li class="layer" data-depth="0.10">
+            <div class="ball"><img src="./images/pool-scene/ball.png"></div>
+          </li>
+          <li class="layer" data-depth="0.20">
+            <div class="hobbes-pool"><img src="./images/pool-scene/hobbes.png"></div>
+          </li>
+          <li class="layer" data-depth="0.40">
+            <div class="pool"><img src="./images/pool-scene/pool.png"></div>
+          </li>
+          <li class="layer" data-depth="1.00">
+            <div class="calvin-pool"><img src="./images/pool-scene/calvin.png"></div>
+          </li>
+        </ul> -->
       </div>
+    </div>
+
+    <div class="section">
+      <div class="container1">
+        <ul id="scene1" class="scene scene1">
+          <li class="layer" data-depth="0.01">
+            <div class="back-tree"><img src="./images/pool-scene/back-tree.png"></div>
+          </li>
+          <li class="layer" data-depth="0.05">
+            <div class="ball"><img src="./images/pool-scene/ball.png"></div>
+          </li>
+          <li class="layer" data-depth="0.10">
+            <div class="hobbes-pool"><img src="./images/pool-scene/hobbes.png"></div>
+          </li>
+          <li class="layer" data-depth="0.60">
+            <div class="pool"><img src="./images/pool-scene/pool.png"></div>
+          </li>
+          <li class="layer" data-depth="1.00">
+            <div class="calvin-pool"><img src="./images/pool-scene/calvin.png"></div>
+          </li>
+        </ul>
       </div>
-      <div class="slide">Slide 2</div>
-      <!-- </div> -->
     </div>
   </div>
 

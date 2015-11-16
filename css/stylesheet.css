@@ -3,11 +3,10 @@ ul {
   padding: 0;
 }
 
-.section {
-  font-size: 64px;
+h2 {
   text-align: center;
 }
-
+/* First Scene */
 .container0 {
   width: 1500px;
   height: 825px;
@@ -15,15 +14,16 @@ ul {
   position: relative;
   margin: 0 auto;
   border: 2px solid black;
+  background: white;
 }
 
 
 .fp-controlArrow.fp-prev {
-    left: 0;
-    border: none;
-    width: 50px;
-    height: 101px;
-    background: url('../images/left-arrow.png') no-repeat;
+/*    left: -15px;
+    border: none;*/
+    /*width: 50px;*/
+    height: 10px;
+    background: url('../images/right-arrow.png') no-repeat;
     cursor: pointer;
 }
 .fp-controlArrow.fp-next {
@@ -35,14 +35,8 @@ ul {
     cursor: pointer;
 }
 
-/*.background {
-  background: white;
-  width: 1600px;
-  height: 825px;
-}*/
-
-.layer div {
-  position: absolute;
+.scene div {
+  position: relative;
 }
 
 .hobbes {
@@ -61,7 +55,6 @@ ul {
 }
 
 .calvin img {
-  /* Dimensions: 2944 × 1840; 25% */ 
   width: 736px;
 }
 
@@ -71,17 +64,15 @@ ul {
 }
 
 .far-right-rock img {
-  /* Dimensions: 2944 × 1840; 25% */ 
   width: 736px;
 }
 
 .right-rock-2 {
   top: 290px;
-  left: 414px;
+  left: 24px;
 }
 
 .right-rock-2 img {
-  /* Dimensions: 2944 × 1840; 25% */ 
   width: 736px;
 }
 
@@ -91,7 +82,6 @@ ul {
 }
 
 .left-rock-1 img {
-  /* Dimensions: 2944 × 1840; 25% */ 
   width: 736px;
 }
 
@@ -104,3 +94,71 @@ ul {
   /* Dimensions: 2944 × 1840; 25% */ 
   width: 736px;
 }
+
+.container1 {
+  width: 1500px;
+  height: 825px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.scene1 {
+  background: #5B8C2C;
+}
+
+.container {
+  width: 1500px;
+  height: 825px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  background: #5B8C2C;
+  border: 2px solid black;
+}
+.calvin-pool {
+  position: absolute;
+  top: 30px;
+  left: -94px;
+}
+.calvin-pool img {
+  /* Dimensions: 2944 × 1656 50% */
+  width: 1472px;
+}
+.hobbes-pool {
+  top: 30px;
+  left: -124px;
+}
+.hobbes-pool img {
+   /*Dimensions: 2944 × 1656 50% */
+  width: 1472px;
+}
+.pool {
+  position: absolute;
+  top: 30px;
+  left: -114px;
+}
+.pool img {
+   /*Dimensions: 2944 × 1656 50% */
+  width: 1472px;
+}
+.ball {
+  position: absolute;
+  top: 30px;
+  left: -114px;
+}
+.ball img {
+   /*Dimensions: 2944 × 1656 50% */
+  width: 1472px;
+}
+.back-tree {
+  position: absolute;
+  top: 0px;
+  left: 4px;
+}
+.back-tree img {
+   /*Dimensions: 2944 × 1656 50% */
+  width: 1472px;
+}
+
