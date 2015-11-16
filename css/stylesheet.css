@@ -1,0 +1,106 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  font-size: 64px;
+  text-align: center;
+}
+
+.container0 {
+  width: 1500px;
+  height: 825px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+
+.fp-controlArrow.fp-prev {
+    left: 0;
+    border: none;
+    width: 50px;
+    height: 101px;
+    background: url('../images/left-arrow.png') no-repeat;
+    cursor: pointer;
+}
+.fp-controlArrow.fp-next {
+    right: 0;
+    border: none;
+    width: 50px;
+    height: 101px;
+    background: url('../images/right-arrow.png') no-repeat;
+    cursor: pointer;
+}
+
+/*.background {
+  background: white;
+  width: 1600px;
+  height: 825px;
+}*/
+
+.layer div {
+  position: absolute;
+}
+
+.hobbes {
+  top: 300px;
+  left: 414px;
+}
+
+.hobbes img {
+  /* Dimensions: 2944 × 1840; 25% */ 
+  width: 736px;
+}
+
+.calvin {
+  top: 300px;
+  left: 414px;
+}
+
+.calvin img {
+  /* Dimensions: 2944 × 1840; 25% */ 
+  width: 736px;
+}
+
+.far-right-rock {
+  top: 300px;
+  left: 414px;
+}
+
+.far-right-rock img {
+  /* Dimensions: 2944 × 1840; 25% */ 
+  width: 736px;
+}
+
+.right-rock-2 {
+  top: 290px;
+  left: 414px;
+}
+
+.right-rock-2 img {
+  /* Dimensions: 2944 × 1840; 25% */ 
+  width: 736px;
+}
+
+.left-rock-1 {
+  top: 330px;
+  left: 414px;
+}
+
+.left-rock-1 img {
+  /* Dimensions: 2944 × 1840; 25% */ 
+  width: 736px;
+}
+
+.left-rock-2 {
+  top: 330px;
+  left: 414px;
+}
+
+.left-rock-2 img {
+  /* Dimensions: 2944 × 1840; 25% */ 
+  width: 736px;
+}
