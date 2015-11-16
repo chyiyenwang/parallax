@@ -6,8 +6,8 @@ $(document).ready(function() {
   });
 
   $('#scene1').parallax({
-    limitX: 60,
-    limitY: 10,
+    limitX: 30,
+    limitY: 5,
   });
 
   // Fullpage.js
@@ -16,9 +16,5 @@ $(document).ready(function() {
     css3: true
   });
 
-  $('#hobbes-pool').qtip({
-    content: "hello",
-    show: 'mouseover',
-    hide: 'mouseout'
-  });
+
 })
